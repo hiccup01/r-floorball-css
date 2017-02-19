@@ -1,0 +1,121 @@
+/* r/floorball gear CSS 
+   Do Not Steal!!!!  */
+
+/* Header image */
+#header-img.default-header {
+    text-indent: -9999px;
+    background-image: url(%%redditbanner2%%);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 168px;
+    width: 100%;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom: 3px;
+}
+
+/* subreddit bar */
+
+#sr-header-area {
+    opacity: .4;
+    transition: opacity .25s;
+}
+
+#sr-header-area:hover {
+    opacity: 1;
+}
+
+/* r/floorballgear link */
+
+.pagename {
+    font-weight: 600;
+    font-family: Helvetica;
+    font-variant: normal;
+}
+
+.pagename:before {
+    content: "";
+    background: url(%%falien%%) 0 0 no-repeat;
+    display: inline-block;
+    width: 56px;
+    height: 79px;
+    background-size: 100%;
+    position: absolute;
+    top: 110px;
+}
+
+/* Submit buttons */
+
+.morelink {
+    border-radius: 5px;
+    border: 1px solid #000000;
+    background: white;
+}
+
+.morelink a {
+    color: #555555;
+    font-weight: 400;
+    font-family: Helvetica;    
+}
+
+.nub {
+    display: none;
+}
+
+/* Submit button */
+
+#search input[type="text"] {
+    border-radius: 5px;
+}
+
+/* Subscriber and User count */
+
+.titlebox .word { display: none }
+.titlebox .number:after { content: " team players"; }
+.titlebox .users-online span.number:after { content: " players playing right now"; }
+
+/* User flairs */
+
+.flair.flair-u-hiccup01 {
+  background: url("%%salming%%");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 85.3px;
+  height: 16.6px;
+  padding: 0;
+  vertical-align: middle;
+  text-indent: -9999px;  
+}
+
+.flair.flair-u-zone {
+    font-size: 16px;
+font-family: 'Impact', sans-serif;
+font-style: normal;
+font-weight: 400;
+text-align: left;
+text-transform: uppercase;
+color: black;
+}
+
+/* Link flairs */
+
+.flair.flair-l-salming {
+  background: url("%%salming%%");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 85.3px;
+  height: 16.6px;
+  padding: 0;
+  vertical-align: middle;
+  text-indent: -9999px;  
+}
+
+.flair.flair-l-zone {
+    font-size: 16px;
+font-family: 'Impact', sans-serif;
+font-style: normal;
+font-weight: 400;
+text-align: left;
+text-transform: uppercase;
+color: black;
+}
