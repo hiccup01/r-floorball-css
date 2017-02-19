@@ -4,7 +4,7 @@
 /* Header image */
 #header-img.default-header {
     text-indent: -9999px;
-    background-image: url(%%redditbanner2%%);
+    background-image: url(%%redditbanner%%);
     background-position: center;
     background-repeat: no-repeat;
     height: 168px;
